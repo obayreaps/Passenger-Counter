@@ -19,3 +19,10 @@ function save(){
     ctrTxt.innerText = 0
     counter = 0
 }
+
+function reset(){
+    //reset previous entries
+    prevEntr.innerText = "Previous entries: "
+    ctrTxt.innerText = 0
+    counter = 0
+}
