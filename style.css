@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    max-width: 80%;
     margin: auto;
     background-color: white;
     border: solid black 2px;
