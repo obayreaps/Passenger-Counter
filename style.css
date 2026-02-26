@@ -3,26 +3,26 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+
+    /* Background image */
+    background-image: url(img/restaurantBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
 }
 
 
-main {
-     /* Adjust position of the app on webpage */
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* Will make div as tall as viewport browser window */
-    height: 100vh; 
-
-    /* Background image */
-    background: 
-        linear-gradient(rgba(255,255,255,0.60), rgba(255,255,255,0.60)),
-        url("./img/trainStationBackground.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 10px;;
 }
 
 
