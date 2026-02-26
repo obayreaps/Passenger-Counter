@@ -5,12 +5,66 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-main {
-    width: 500px;
-    background-color: antiquewhite;
 
+main {
+     /* Adjust position of the app on webpage */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    /* Will make div as tall as viewport browser window */
+    height: 100vh; 
+
+    /* Background image */
+    background: 
+        linear-gradient(rgba(255,255,255,0.60), rgba(255,255,255,0.60)),
+        url("./img/trainStationBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main-header {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.counter-text {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.increment-btn, .save-btn, .reset-btn{
+    margin: 5px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.increment-btn{
+    background-color: red;
+}
+
+.save-btn {
+    background-color: green;
+}
+
+.reset-btn {
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600px;
+    padding: 5px;
+    color: black;
+}
+
+.prev-text {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 500px;
 }
